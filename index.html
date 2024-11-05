@@ -24,75 +24,180 @@
       </nav>
 
       <div
-        class="flex flex-col text-center pt-5 px-10 leading-10 text-white gap-10"
+        class="flex flex-col text-center pt-5 px-10 leading-10 text-white gap-8 lg:gap-14"
       >
         <h1 class="text-neutral-100 text-6xl">
-          In the hall of The <span class="font-bold">Mountain King</span>
+          In the hall of The <br />
+          <span class="font-bold">Mountain King</span>
         </h1>
         <article class="flex flex-col items-center">
           <p class="text-gris mb-5 w-[60%] text-xl leading-10">
             This is a simple hero unit, a simple jubotron-style coponent for
             calling extra attention to featured content or information.
           </p>
-          <a href="#" class="bg-green w-[40%]">Learn more</a>
-          <a href="#" class="bg-rouge w-[36%]">Download</a>
+          <div class="flex flex-col items-center lg:inline-block lg:pt-8">
+            <a href="#" class="bg-green w-40 lg:px-5 lg:py-3">Learn more</a>
+            <a href="#" class="bg-rouge w-36 lg:px-5 lg:py-3">Download</a>
+          </div>
         </article>
       </div>
     </header>
 
-    <section id="features" class="flex justify-center text-center text-gris-bis py-20 px-6 bg-white flex-col gap-11">
+    <section
+      id="features"
+      class="flex justify-center text-center text-gris-bis py-20 px-6 bg-white flex-col gap-11 lg:flex-row lg:px-10"
+    >
       <article class="flex flex-col gap-6">
         <div class="flex justify-center">
-        <img src="./images/crayon.png" alt="crayon" class="w-16"/>
+          <img src="./images/crayon.png" alt="crayon" class="w-16" />
         </div>
         <h3 class="text-4xl">Consectetur Risus</h3>
-        <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula sem ut risus sagittis, quis eleifend ante lacinia.</p>
-    </article>
+        <p class="text-xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          vehicula sem ut risus sagittis, quis eleifend ante lacinia.
+        </p>
+      </article>
 
       <article class="flex flex-col gap-6">
         <div class="flex justify-center">
-            <img src="./images/apphoto.png" alt="crayon" class="w-16"/>
-            </div>
-            <h3 class="text-4xl">Ultricies Aenean</h3>
-            <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula sem ut risus sagittis, quis eleifend ante lacinia.</p>
+          <img src="./images/apphoto.png" alt="crayon" class="w-16" />
+        </div>
+        <h3 class="text-4xl">Ultricies Aenean</h3>
+        <p class="text-xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          vehicula sem ut risus sagittis, quis eleifend ante lacinia.
+        </p>
       </article>
       <article class="flex flex-col gap-6">
         <div class="flex justify-center">
-            <img src="./images/Sans titre.png" alt="crayon" class="w-16"/>
-            </div>
-            <h3 class="text-4xl">Cras Sollicitudin</h3>
-            <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula sem ut risus sagittis, quis eleifend ante lacinia.</p>
+          <img src="./images/Sans titre.png" alt="crayon" class="w-16" />
+        </div>
+        <h3 class="text-4xl">Cras Sollicitudin</h3>
+        <p class="text-xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          vehicula sem ut risus sagittis, quis eleifend ante lacinia.
+        </p>
       </article>
     </section>
 
-<section id="about" class="px-5 text-white"
- class="bg-cover h-screen"
- style="background-image: url('./images/bg_nuage.jpg')">
+    <section
+      id="about"
+      class="px-5 text-white"
+      class="bg-cover h-screen"
+      style="background-image: url('./images/bg_nuage.jpg')"
+    >
+      <article
+        class="bg-bleu bg-opacity-65 px-8 flex flex-col items-center gap-8 py-10 lg:max-w-[55%] lg:ml-80"
+      >
+        <h3 class="text-4xl">Ligula Mattis Ornare Ultricies</h3>
+        <h4 class="text-3xl">Pallentesque Cursus Amet Parturient Etiam</h4>
+        <p class="text-xl leading-10">
+          Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
+          elit non mi porta gravida at eget metus. Nullam id dolor id nibh
+          ultricies vehicula ut id elit.
+        </p>
+        <div
+          class="flex gap-8 flex-col lg:flex lg:flex-row lg:justify-center lg:gap-14"
+        >
+          <div
+            class="flex flex-col items-center justify-center text-4xl gap-8 border-solid border-white border-2 h-52 w-52"
+          >
+            <p>Ultricies</p>
+            <p>23,578</p>
+          </div>
+          <div
+            class="flex flex-col items-center justify-center text-4xl gap-8 border-solid border-white border-2 h-52 w-52"
+          >
+            <p>Fermentum</p>
+            <p>12,702</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section
+      id="blog"
+      class="text-gris-bis flex justify-center flex-col text-justify pt-10 px-6 gap-8"
+    >
+      <article class="flex flex-col text-xl gap-3 lg:flex-row lg:gap-6">
+        <div class="flex flex-col justify-between gap-3 lg:w-1/2">
+          <h3 class="text-5xl text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h3>
+
+          <p>
+            Lorem ipsum dolor sit amet. Non commodi assumenda ut dolore
+            dignissimos qui maxime nobis ut necessitatibus perferendis est omnis
+            accusantium aut quaerat saepe. Ut sapiente mollitia ut accusamus
+            harum qui quia aspernatur vel doloremque quia ut maxime cumque et
+            commodi perferendis.
+          </p>
+          <p>
+            Et fugiat error id odio officiis aut porro vero sed minima iusto ea
+            dolorem voluptas id autem ipsa est architecto molestiae. Non
+            recusandae dolor ut explicabo autem est sunt laudantium aut dolores
+            veritatis sed recusandae enim et voluptatem fugiat. Eum officiis
+            adipisci est amet enim et iure reiciendis ad quia modi non quia
+            tenetur.
+          </p>
+          <a href="#" class="bg-rouge w-36 p-3 text-white">Take a Look</a>
+        </div>
+        <img
+          src="./images/1200.jpeg"
+          alt=""
+          class="lg:w-1/2 lg:py-20 lg:px-20"
+        />
+      </article>
+    </section>
+
+    <section
+      id="history"
+      style="background-image: url('./images/bg_appareil_photo.jpg')"
+      class="px-8 bg-cover"
+    >
+      <article class="text-xl text-gris bg-bleu bg-opacity-65 p-6 flex flex-col gap-5 lg:max-w-[45%] lg:ml-20">
+        <p>
+          Lorem ipsum dolor sit amet. Aut officiis eveniet sed porro rerum quo
+          omnis sapiente aut minus nemo. Sit enim laborum et facere delectus ad
+          fugiat quaerat!
+        </p>
+
+        <p>
+          33 similique ducimus aut magni quod ab quaerat autem aut temporibus
+          inventore. Cum minus perspiciatis ut alias quod nam dolore voluptas et
+          voluptatum quaerat est quasi voluptatem eum totam soluta ad dolorum
+          enim.
+        </p>
+
+        <p>
+          Et natus repudiandae rem dolorum quam non nisi dolor sed consequatur
+          quisquam aut consequatur soluta et possimus nemo. Ut ullam recusandae
+          et labore perferendis quo quam odit qui repudiandae deleniti. Et
+          aliquid vitae eos beatae aperiam et asperiores omnis et ipsa animi?
+        </p>
+      </article>
+    </section>
 
 
-<article class="bg-bleu bg-opacity-65 px-6 flex flex-col items-center gap-8 py-10">
-<h3 class="text-4xl">Ligula Mattis Ornare Ultricies</h3>
-<h4 class="text-3xl">Pallentesque Cursus Amet Parturient Etiam</h4>
-<p class="text-xl leading-10">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<div class=" flex flex-col items-center justify-center text-4xl gap-8 border-solid border-white border-2 py-6 h-52 w-52">
-<p>Ultricies</p>
-<p>23,578</p>
+<section id="photos" class="bg-gris">
+<div class="flex flex-col items-center gap-3 lg:grid lg:grid-cols-3 lg:grid-rows-4 lg:gap-3 lg:p-10">
+
+<img src="./images/300.jpeg" alt="" class="lg:w-[100%] lg:col-span-2">
+<img src="./images/776.jpeg" alt="" class="w-[100%] lg:row-span-3 lg:col-start-3">
+<img src="./images/800.jpeg" alt="" class="w-[100%] lg:row-span-2 lg:row-start-2">
+<img src="./images/400.jpeg" alt="" class="w-[100%] lg:row-start-2">
+<img src="./images/2476.jpeg" alt="" class="w-[100%] lg:col-start-2 lg:row-start-3">
+<img src="./images/439.jpeg" alt="" class="w-[100%] lg:col-start-3 lg:row-start-4">
+<img src="/images/140.jpeg" alt="" class="w-[100%] lg:col-span-2 lg:col-start-1 lg:row-start-4">
 </div>
-<div class="flex flex-col items-center justify-center text-4xl gap-8 border-solid border-white border-2 py-6 h-52 w-52">
-<p>Fermentum</p>
-<p>12,702</p>
-</div>
 
 
-</article>
 
 
 
 
 
 </section>
-
-
 
   </body>
 </html>
